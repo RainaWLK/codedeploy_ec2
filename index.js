@@ -19,7 +19,7 @@ async function runDeploy(appName, deploymentGroupName, targetRevision){
     applicationName: appName,
     deploymentGroupName: deploymentGroupName,
     revision: targetRevision,
-    updateOutdatedInstancesOnly: true
+    updateOutdatedInstancesOnly: false
   }
 
   try {
